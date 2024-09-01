@@ -11,15 +11,21 @@
         "addresses": [
             {
                 "name": "country",
-                "data": "v2.openaddresses.io/batch-prod/upload/1/2516c2tqyks/no.geojson.zip",
-                "website": "http://data.kartverket.no/download/content/elveg-utm-33-hele-landet",
+                "data": "https://nedlasting.geonorge.no/api/download/order/223c4529-b116-4b63-96c0-a8e2f2b4ec4d/478ee84b-ab9a-473b-9475-fa6de78be236",
+                "website": "https://kartkatalog.geonorge.no/metadata/cadastre--address-apartment-level/365b0591-b536-42a6-a20d-22e404fbfe55",
                 "protocol": "http",
                 "compression": "zip",
                 "conform": {
-                    "format": "geojson",
-                    "number": "HUSNR",
-                    "street": "GATENAVN",
-                    "postcode": "POSTNR"
+                    "format": "csv",
+                    "csvsplit": ";",
+                    "srs": "EPSG:25833",
+                    "lat": "Nord",
+                    "lon": "Øst",
+                    "number": "nummer",
+                    "street": "addressenavn",
+                    "unit": "bokstav",
+                    "city": "kommunenavn",
+                    "postcode": "postnummer"
                 }
             }
         ]
