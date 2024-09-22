@@ -25,7 +25,6 @@
                         "STREET_TYP",
                         "SUF_DIR"
                     ],
-                    "unit": "UNIT",
                     "city": "CITY",
                     "region": "STATE",
                     "postcode": "ZIP_CODE"
